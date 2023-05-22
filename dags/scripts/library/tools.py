@@ -75,6 +75,8 @@ def fixture_file():
     obtenidos no sean suficientes o excedan el criterio de su creacion por lo que se tienen dos opciones en un try-except para cada caso.
     Luego de tener el dataframe se filtra y se dejan solo los partidos que se jueguen 'mañana', 'pospuestos', y los siguientes que son
     delimitados hasta el proximo domingo mas cercano, luego se guarda en un archivo .csv llamado next_fixtures"""
+    """esto es una prueba"""
+ 
 
 
 
