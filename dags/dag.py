@@ -14,10 +14,10 @@ from scripts.library.tools import season_number
 
 #credenciales API
 API_HOST = "v3.football.api-sports.io"
-API_KEY = "2bf3f0f2cb1fcdef1792bd2b5f275e58"
+API_KEY = "MY_API_KEY"
 #credenciales AWS
-AWS_ID='AKIA2ZOTMWKPMOK7M5KA'
-AWS_KEY='tfqDzSb9TKhgIFpxYajX6C3TFkWZAfTKH4QESdNQ'
+AWS_ID='MY_AWS_ID'
+AWS_KEY='MY_AWS_KEY'
 REGION='us-east-2'
 
 
