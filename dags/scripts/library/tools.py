@@ -69,6 +69,12 @@ def identifier():
     return  fixture_file 
 
 def fixture_file():
+    
+     """la funcion toma de la url las fechas de lox proximos partidos, limpia los datos y los divide en pedazos que seran 
+    utilizados para crear un dafaframe con los nombres de columna preestablecidos, existe la posibilidad de que la cantidad de datos 
+    obtenidos no sean suficientes o excedan el criterio de su creacion por lo que se tienen dos opciones en un try-except para cada caso.
+    Luego de tener el dataframe se filtra y se dejan solo los partidos que se jueguen 'mañana', 'pospuestos', y los siguientes que son
+    delimitados hasta el proximo domingo mas cercano, luego se guarda en un archivo .csv llamado next_fixtures"""
 
 
 
